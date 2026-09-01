@@ -38,10 +38,10 @@ public class User {
     private @Getter @Setter String password;
 
     @OneToOne(mappedBy="user",cascade=CascadeType.ALL, fetch=FetchType.EAGER)
-    private @Getter @Setter Profile profile; // 1 usuário tem exatamente 1 profile
+    private @Getter @Setter br.com.fiap._tdspa.javaadv.blogBackend.domainmodel.entities.Profile profile; // 1 usuário tem exatamente 1 profile
 
     @OneToMany(mappedBy="user", cascade=CascadeType.ALL, fetch=FetchType.LAZY)
-    private @Getter @Setter Set<Post> posts = new HashSet<>(); // mais rápido
+    private @Getter @Setter Set<br.com.fiap._tdspa.javaadv.blogBackend.domainmodel.entities.Post> posts = new HashSet<>(); // mais rápido
 
     @ManyToMany(fetch=FetchType.LAZY)
     @JoinTable(
@@ -49,7 +49,7 @@ public class User {
             joinColumns = @JoinColumn(name="user_id"),
             inverseJoinColumns = @JoinColumn(name="role_id")
     )
-    private @Getter @Setter Set<Role> roles = new HashSet<>();
+    private @Getter @Setter Set<br.com.fiap._tdspa.javaadv.blogBackend.domainmodel.entities.Role> roles = new HashSet<>();
 
     @Override
     public boolean equals(Object o) {

@@ -30,7 +30,7 @@ public class Post {
 
     @ManyToOne
     @JoinColumn(name="user_id")
-    private @Getter @Setter User user;
+    private @Getter @Setter br.com.fiap._tdspa.javaadv.blogBackend.domainmodel.entities.User user;
 
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
@@ -38,7 +38,7 @@ public class Post {
             joinColumns = @JoinColumn(name="POST_ID"),
             inverseJoinColumns = @JoinColumn(name="TAG_ID")
     )
-    private @Getter @Setter Set<Tag> tags;
+    private @Getter @Setter Set<br.com.fiap._tdspa.javaadv.blogBackend.domainmodel.entities.Tag> tags;
 
     @Override
     public boolean equals(Object o) {

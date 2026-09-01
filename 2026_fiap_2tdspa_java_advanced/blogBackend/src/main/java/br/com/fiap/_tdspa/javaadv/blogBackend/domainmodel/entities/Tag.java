@@ -27,7 +27,7 @@ public class Tag {
     private @Getter @Setter String name;
 
     @ManyToMany(mappedBy="tags", fetch = FetchType.LAZY)
-    private @Getter @Setter Set<Post> posts;
+    private @Getter @Setter Set<br.com.fiap._tdspa.javaadv.blogBackend.domainmodel.entities.Post> posts;
 
     @Override
     public boolean equals(Object o) {

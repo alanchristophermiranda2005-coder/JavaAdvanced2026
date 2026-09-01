@@ -28,7 +28,7 @@ public class Profile {
 
     @OneToOne(fetch = FetchType.LAZY) // Um user tem um profile
     @JoinColumn(name="user_id")
-    private @Getter @Setter User user;
+    private @Getter @Setter br.com.fiap._tdspa.javaadv.blogBackend.domainmodel.entities.User user;
 
     @Override
     public boolean equals(Object o) {

@@ -28,7 +28,7 @@ public class Role {
     private @Getter @Setter String name;
 
     @ManyToMany(mappedBy = "roles", fetch=FetchType.LAZY)
-    private @Getter @Setter Set<User> user;
+    private @Getter @Setter Set<br.com.fiap._tdspa.javaadv.blogBackend.domainmodel.entities.User> user;
 
     @Override
     public boolean equals(Object o) {

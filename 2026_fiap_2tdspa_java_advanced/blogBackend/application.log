@@ -260,3 +260,705 @@
 2026-09-01T09:22:46.055-03:00  INFO 31984 --- [blogBackend] [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2026-09-01T09:22:46.056-03:00  INFO 31984 --- [blogBackend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
 2026-09-01T09:22:46.059-03:00  INFO 31984 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Started BlogBackendApplication in 2.893 seconds (process running for 3.221)
+2026-09-02T08:49:35.821-03:00  INFO 6008 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Starting BlogBackendApplication using Java 21.0.12.1 with PID 6008 (C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\blogBackend\target\classes started by labsfiap in C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\blogBackend)
+2026-09-02T08:49:35.824-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-09-02T08:49:35.825-03:00  INFO 6008 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T08:49:35.854-03:00  INFO 6008 --- [blogBackend] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\labsfiap\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.26.2.0.0\ojdbc11-23.26.2.0.0.jar referenced one or more files that do not exist: file:/C:/Users/labsfiap/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.26.2.0.0/oraclepki.jar
+2026-09-02T08:49:35.854-03:00  INFO 6008 --- [blogBackend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-02T08:49:35.854-03:00  INFO 6008 --- [blogBackend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-02T08:49:36.240-03:00  INFO 6008 --- [blogBackend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-02T08:49:36.276-03:00  INFO 6008 --- [blogBackend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 5 JPA repository interfaces.
+2026-09-02T08:49:36.609-03:00  INFO 6008 --- [blogBackend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-09-02T08:49:36.621-03:00  INFO 6008 --- [blogBackend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T08:49:36.621-03:00  INFO 6008 --- [blogBackend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-09-02T08:49:36.645-03:00  INFO 6008 --- [blogBackend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 791 ms
+2026-09-02T08:49:36.772-03:00  INFO 6008 --- [blogBackend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-02T08:49:36.807-03:00  INFO 6008 --- [blogBackend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-02T08:49:37.062-03:00  INFO 6008 --- [blogBackend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-02T08:49:37.084-03:00  INFO 6008 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Starting...
+2026-09-02T08:49:37.198-03:00  INFO 6008 --- [blogBackend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : SpringBootHikariCP - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-09-02T08:49:37.199-03:00  INFO 6008 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Start completed.
+2026-09-02T08:49:37.229-03:00  INFO 6008 --- [blogBackend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-02T08:49:37.769-03:00  INFO 6008 --- [blogBackend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-02T08:49:37.771-03:00  INFO 6008 --- [blogBackend] [restartedMain] org.hibernate.orm.jdbc.batch             : HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-09-02T08:49:37.780-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys001_user cascade 
+2026-09-02T08:49:37.781-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys002_profiles cascade 
+2026-09-02T08:49:37.782-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys003_posts cascade 
+2026-09-02T08:49:37.783-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys004_tag cascade 
+2026-09-02T08:49:37.783-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys006_posts_tags cascade 
+2026-09-02T08:49:37.784-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys007_role cascade 
+2026-09-02T08:49:37.784-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys008_system_users_roles cascade 
+2026-09-02T08:49:37.787-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys001_user (
+        id uuid not null,
+        password varchar(20) not null,
+        email varchar(60) not null,
+        name varchar(60) not null,
+        primary key (id)
+    )
+2026-09-02T08:49:37.791-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys002_profiles (
+        id uuid not null,
+        user_id uuid unique,
+        biography varchar(255),
+        picture varchar(255),
+        primary key (id)
+    )
+2026-09-02T08:49:37.793-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys003_posts (
+        id uuid not null,
+        user_id uuid,
+        title varchar(60) not null,
+        content varchar(255),
+        primary key (id)
+    )
+2026-09-02T08:49:37.794-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys004_tag (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T08:49:37.795-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys006_posts_tags (
+        post_id uuid not null,
+        tag_id uuid not null,
+        primary key (post_id, tag_id)
+    )
+2026-09-02T08:49:37.796-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys007_role (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T08:49:37.797-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys008_system_users_roles (
+        role_id uuid not null,
+        user_id uuid not null,
+        primary key (role_id, user_id)
+    )
+2026-09-02T08:49:37.798-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys002_profiles 
+       add constraint FKk2etle2j4opydcp3bkjiu0ybi 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T08:49:37.805-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys003_posts 
+       add constraint FKfla4j75s2o1p8gb626fk1ox0e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T08:49:37.807-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FK3c89x3lab6nyv46as92cr1095 
+       foreign key (tag_id) 
+       references sys004_tag
+2026-09-02T08:49:37.808-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FKnugvv045a69eo0av7l6bf0wxb 
+       foreign key (post_id) 
+       references sys003_posts
+2026-09-02T08:49:37.809-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FK7764bafqgpryyv1pfrfxsmqb0 
+       foreign key (role_id) 
+       references sys007_role
+2026-09-02T08:49:37.810-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FKn49uakpvmtdqe7tni5ihg663e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T08:49:37.812-03:00  INFO 6008 --- [blogBackend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02T08:49:37.844-03:00  WARN 6008 --- [blogBackend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-02T08:49:38.248-03:00  INFO 6008 --- [blogBackend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-02T08:49:38.492-03:00  INFO 6008 --- [blogBackend] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2026-09-02T08:49:38.530-03:00  WARN 6008 --- [blogBackend] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-09-02T08:49:38.532-03:00  INFO 6008 --- [blogBackend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02T08:49:38.533-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys001_user cascade 
+2026-09-02T08:49:38.535-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys002_profiles cascade 
+2026-09-02T08:49:38.535-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys003_posts cascade 
+2026-09-02T08:49:38.536-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys004_tag cascade 
+2026-09-02T08:49:38.536-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys006_posts_tags cascade 
+2026-09-02T08:49:38.537-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys007_role cascade 
+2026-09-02T08:49:38.537-03:00 DEBUG 6008 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys008_system_users_roles cascade 
+2026-09-02T08:49:38.544-03:00  WARN 6008 --- [blogBackend] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-09-02T08:49:38.544-03:00  INFO 6008 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Shutdown initiated...
+2026-09-02T08:49:38.546-03:00  INFO 6008 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Shutdown completed.
+2026-09-02T08:49:38.560-03:00  INFO 6008 --- [blogBackend] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T08:49:38.580-03:00 ERROR 6008 --- [blogBackend] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-09-02T09:34:28.074-03:00  INFO 8940 --- [blogBackend] [main] b.c.f._.j.b.BlogBackendApplicationTests  : Starting BlogBackendApplicationTests using Java 21.0.12.1 with PID 8940 (started by labsfiap in C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\blogBackend)
+2026-09-02T09:34:28.075-03:00 DEBUG 8940 --- [blogBackend] [main] b.c.f._.j.b.BlogBackendApplicationTests  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-09-02T09:34:28.075-03:00  INFO 8940 --- [blogBackend] [main] b.c.f._.j.b.BlogBackendApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T09:34:28.413-03:00  INFO 8940 --- [blogBackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-02T09:34:28.448-03:00  INFO 8940 --- [blogBackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 5 JPA repository interfaces.
+2026-09-02T09:34:28.665-03:00  INFO 8940 --- [blogBackend] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-02T09:34:28.700-03:00  INFO 8940 --- [blogBackend] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-02T09:34:28.969-03:00  INFO 8940 --- [blogBackend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-02T09:34:28.986-03:00  INFO 8940 --- [blogBackend] [main] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Starting...
+2026-09-02T09:34:29.162-03:00  INFO 8940 --- [blogBackend] [main] com.zaxxer.hikari.pool.HikariPool        : SpringBootHikariCP - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-09-02T09:34:29.163-03:00  INFO 8940 --- [blogBackend] [main] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Start completed.
+2026-09-02T09:34:29.201-03:00  INFO 8940 --- [blogBackend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-02T09:34:29.750-03:00  INFO 8940 --- [blogBackend] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-02T09:34:29.752-03:00  INFO 8940 --- [blogBackend] [main] org.hibernate.orm.jdbc.batch             : HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-09-02T09:34:29.760-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    drop table if exists sys001_user cascade 
+2026-09-02T09:34:29.761-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    drop table if exists sys002_profiles cascade 
+2026-09-02T09:34:29.761-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    drop table if exists sys003_posts cascade 
+2026-09-02T09:34:29.762-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    drop table if exists sys004_tag cascade 
+2026-09-02T09:34:29.762-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    drop table if exists sys006_posts_tags cascade 
+2026-09-02T09:34:29.762-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    drop table if exists sys007_role cascade 
+2026-09-02T09:34:29.763-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    drop table if exists sys008_system_users_roles cascade 
+2026-09-02T09:34:29.766-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    create table sys001_user (
+        id uuid not null,
+        password varchar(20) not null,
+        email varchar(60) not null,
+        name varchar(60) not null,
+        primary key (id)
+    )
+2026-09-02T09:34:29.770-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    create table sys002_profiles (
+        id uuid not null,
+        user_id uuid unique,
+        biography varchar(255),
+        picture varchar(255),
+        primary key (id)
+    )
+2026-09-02T09:34:29.772-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    create table sys003_posts (
+        id uuid not null,
+        user_id uuid,
+        title varchar(60) not null,
+        content varchar(255),
+        primary key (id)
+    )
+2026-09-02T09:34:29.773-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    create table sys004_tag (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T09:34:29.774-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    create table sys006_posts_tags (
+        post_id uuid not null,
+        tag_id uuid not null,
+        primary key (post_id, tag_id)
+    )
+2026-09-02T09:34:29.774-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    create table sys007_role (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T09:34:29.775-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    create table sys008_system_users_roles (
+        role_id uuid not null,
+        user_id uuid not null,
+        primary key (role_id, user_id)
+    )
+2026-09-02T09:34:29.776-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    alter table if exists sys002_profiles 
+       add constraint FKk2etle2j4opydcp3bkjiu0ybi 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T09:34:29.782-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    alter table if exists sys003_posts 
+       add constraint FKfla4j75s2o1p8gb626fk1ox0e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T09:34:29.785-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FK3c89x3lab6nyv46as92cr1095 
+       foreign key (tag_id) 
+       references sys004_tag
+2026-09-02T09:34:29.785-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FKnugvv045a69eo0av7l6bf0wxb 
+       foreign key (post_id) 
+       references sys003_posts
+2026-09-02T09:34:29.786-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FK7764bafqgpryyv1pfrfxsmqb0 
+       foreign key (role_id) 
+       references sys007_role
+2026-09-02T09:34:29.787-03:00 DEBUG 8940 --- [blogBackend] [main] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FKn49uakpvmtdqe7tni5ihg663e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T09:34:29.789-03:00  INFO 8940 --- [blogBackend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02T09:34:29.860-03:00  WARN 8940 --- [blogBackend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-02T09:34:30.273-03:00  INFO 8940 --- [blogBackend] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-02T09:34:30.443-03:00  INFO 8940 --- [blogBackend] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2026-09-02T09:34:30.525-03:00  INFO 8940 --- [blogBackend] [main] b.c.f._.j.b.BlogBackendApplicationTests  : Started BlogBackendApplicationTests in 2.668 seconds (process running for 3.339)
+2026-09-02T09:34:30.752-03:00  INFO 8940 --- [blogBackend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02T09:34:30.753-03:00 DEBUG 8940 --- [blogBackend] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists sys001_user cascade 
+2026-09-02T09:34:30.754-03:00 DEBUG 8940 --- [blogBackend] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists sys002_profiles cascade 
+2026-09-02T09:34:30.755-03:00 DEBUG 8940 --- [blogBackend] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists sys003_posts cascade 
+2026-09-02T09:34:30.755-03:00 DEBUG 8940 --- [blogBackend] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists sys004_tag cascade 
+2026-09-02T09:34:30.755-03:00 DEBUG 8940 --- [blogBackend] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists sys006_posts_tags cascade 
+2026-09-02T09:34:30.756-03:00 DEBUG 8940 --- [blogBackend] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists sys007_role cascade 
+2026-09-02T09:34:30.756-03:00 DEBUG 8940 --- [blogBackend] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists sys008_system_users_roles cascade 
+2026-09-02T09:34:30.758-03:00  INFO 8940 --- [blogBackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Shutdown initiated...
+2026-09-02T09:34:30.759-03:00  INFO 8940 --- [blogBackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Shutdown completed.
+2026-09-02T10:14:17.234-03:00  INFO 8052 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Starting BlogBackendApplication using Java 21.0.12.1 with PID 8052 (C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\blogBackend\target\classes started by labsfiap in C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\blogBackend)
+2026-09-02T10:14:17.236-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-09-02T10:14:17.236-03:00  INFO 8052 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T10:14:17.276-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\labsfiap\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.26.2.0.0\ojdbc11-23.26.2.0.0.jar referenced one or more files that do not exist: file:/C:/Users/labsfiap/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.26.2.0.0/oraclepki.jar
+2026-09-02T10:14:17.276-03:00  INFO 8052 --- [blogBackend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-02T10:14:17.276-03:00  INFO 8052 --- [blogBackend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-02T10:14:17.616-03:00  INFO 8052 --- [blogBackend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-02T10:14:17.646-03:00  INFO 8052 --- [blogBackend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 5 JPA repository interfaces.
+2026-09-02T10:14:17.887-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-09-02T10:14:17.895-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T10:14:17.896-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-09-02T10:14:17.916-03:00  INFO 8052 --- [blogBackend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 640 ms
+2026-09-02T10:14:18.007-03:00  INFO 8052 --- [blogBackend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-02T10:14:18.032-03:00  INFO 8052 --- [blogBackend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-02T10:14:18.234-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-02T10:14:18.250-03:00  INFO 8052 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Starting...
+2026-09-02T10:14:18.393-03:00  INFO 8052 --- [blogBackend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : SpringBootHikariCP - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-09-02T10:14:18.394-03:00  INFO 8052 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Start completed.
+2026-09-02T10:14:18.425-03:00  INFO 8052 --- [blogBackend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-02T10:14:18.982-03:00  INFO 8052 --- [blogBackend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-02T10:14:18.985-03:00  INFO 8052 --- [blogBackend] [restartedMain] org.hibernate.orm.jdbc.batch             : HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-09-02T10:14:18.994-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys001_user cascade 
+2026-09-02T10:14:18.995-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys002_profiles cascade 
+2026-09-02T10:14:18.996-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys003_posts cascade 
+2026-09-02T10:14:18.996-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys004_tag cascade 
+2026-09-02T10:14:18.996-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys006_posts_tags cascade 
+2026-09-02T10:14:18.997-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys007_role cascade 
+2026-09-02T10:14:18.997-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys008_system_users_roles cascade 
+2026-09-02T10:14:18.999-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys001_user (
+        id uuid not null,
+        password varchar(20) not null,
+        email varchar(60) not null,
+        name varchar(60) not null,
+        primary key (id)
+    )
+2026-09-02T10:14:19.003-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys002_profiles (
+        id uuid not null,
+        user_id uuid unique,
+        biography varchar(255),
+        picture varchar(255),
+        primary key (id)
+    )
+2026-09-02T10:14:19.005-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys003_posts (
+        id uuid not null,
+        user_id uuid,
+        title varchar(60) not null,
+        content varchar(255),
+        primary key (id)
+    )
+2026-09-02T10:14:19.006-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys004_tag (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T10:14:19.007-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys006_posts_tags (
+        post_id uuid not null,
+        tag_id uuid not null,
+        primary key (post_id, tag_id)
+    )
+2026-09-02T10:14:19.008-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys007_role (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T10:14:19.008-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys008_system_users_roles (
+        role_id uuid not null,
+        user_id uuid not null,
+        primary key (role_id, user_id)
+    )
+2026-09-02T10:14:19.009-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys002_profiles 
+       add constraint FKk2etle2j4opydcp3bkjiu0ybi 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T10:14:19.016-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys003_posts 
+       add constraint FKfla4j75s2o1p8gb626fk1ox0e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T10:14:19.019-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FK3c89x3lab6nyv46as92cr1095 
+       foreign key (tag_id) 
+       references sys004_tag
+2026-09-02T10:14:19.020-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FKnugvv045a69eo0av7l6bf0wxb 
+       foreign key (post_id) 
+       references sys003_posts
+2026-09-02T10:14:19.021-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FK7764bafqgpryyv1pfrfxsmqb0 
+       foreign key (role_id) 
+       references sys007_role
+2026-09-02T10:14:19.021-03:00 DEBUG 8052 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FKn49uakpvmtdqe7tni5ihg663e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T10:14:19.023-03:00  INFO 8052 --- [blogBackend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02T10:14:19.051-03:00  WARN 8052 --- [blogBackend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-02T10:14:19.202-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-02T10:14:19.316-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2026-09-02T10:14:19.343-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02T10:14:19.343-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-02T10:14:19.344-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-09-02T10:14:19.345-03:00  INFO 8052 --- [blogBackend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-09-02T10:14:19.347-03:00  INFO 8052 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Started BlogBackendApplication in 2.446 seconds (process running for 2.829)
+2026-09-02T10:29:40.460-03:00  INFO 17752 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Starting BlogBackendApplication using Java 21.0.12.1 with PID 17752 (C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\blogBackend\target\classes started by labsfiap in C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\blogBackend)
+2026-09-02T10:29:40.461-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-09-02T10:29:40.461-03:00  INFO 17752 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T10:29:40.485-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\labsfiap\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.26.2.0.0\ojdbc11-23.26.2.0.0.jar referenced one or more files that do not exist: file:/C:/Users/labsfiap/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.26.2.0.0/oraclepki.jar
+2026-09-02T10:29:40.485-03:00  INFO 17752 --- [blogBackend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-02T10:29:40.485-03:00  INFO 17752 --- [blogBackend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-02T10:29:40.749-03:00  INFO 17752 --- [blogBackend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-02T10:29:40.775-03:00  INFO 17752 --- [blogBackend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 5 JPA repository interfaces.
+2026-09-02T10:29:40.981-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-09-02T10:29:40.988-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T10:29:40.988-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-09-02T10:29:41.017-03:00  INFO 17752 --- [blogBackend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 532 ms
+2026-09-02T10:29:41.089-03:00  INFO 17752 --- [blogBackend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-02T10:29:41.112-03:00  INFO 17752 --- [blogBackend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-02T10:29:41.306-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-02T10:29:41.321-03:00  INFO 17752 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Starting...
+2026-09-02T10:29:41.451-03:00  INFO 17752 --- [blogBackend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : SpringBootHikariCP - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-09-02T10:29:41.451-03:00  INFO 17752 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Start completed.
+2026-09-02T10:29:41.487-03:00  INFO 17752 --- [blogBackend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-02T10:29:41.984-03:00  INFO 17752 --- [blogBackend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-02T10:29:41.986-03:00  INFO 17752 --- [blogBackend] [restartedMain] org.hibernate.orm.jdbc.batch             : HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-09-02T10:29:41.996-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys001_user cascade 
+2026-09-02T10:29:41.996-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys002_profiles cascade 
+2026-09-02T10:29:41.997-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys003_posts cascade 
+2026-09-02T10:29:41.997-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys004_tag cascade 
+2026-09-02T10:29:41.997-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys006_posts_tags cascade 
+2026-09-02T10:29:41.997-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys007_role cascade 
+2026-09-02T10:29:41.997-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys008_system_users_roles cascade 
+2026-09-02T10:29:41.999-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys001_user (
+        id uuid not null,
+        password varchar(20) not null,
+        email varchar(60) not null,
+        name varchar(60) not null,
+        primary key (id)
+    )
+2026-09-02T10:29:42.005-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys002_profiles (
+        id uuid not null,
+        user_id uuid unique,
+        biography varchar(255),
+        picture varchar(255),
+        primary key (id)
+    )
+2026-09-02T10:29:42.008-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys003_posts (
+        id uuid not null,
+        user_id uuid,
+        title varchar(60) not null,
+        content varchar(255),
+        primary key (id)
+    )
+2026-09-02T10:29:42.008-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys004_tag (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T10:29:42.010-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys006_posts_tags (
+        post_id uuid not null,
+        tag_id uuid not null,
+        primary key (post_id, tag_id)
+    )
+2026-09-02T10:29:42.010-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys007_role (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T10:29:42.011-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys008_system_users_roles (
+        role_id uuid not null,
+        user_id uuid not null,
+        primary key (role_id, user_id)
+    )
+2026-09-02T10:29:42.012-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys002_profiles 
+       add constraint FKk2etle2j4opydcp3bkjiu0ybi 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T10:29:42.020-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys003_posts 
+       add constraint FKfla4j75s2o1p8gb626fk1ox0e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T10:29:42.022-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FK3c89x3lab6nyv46as92cr1095 
+       foreign key (tag_id) 
+       references sys004_tag
+2026-09-02T10:29:42.024-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FKnugvv045a69eo0av7l6bf0wxb 
+       foreign key (post_id) 
+       references sys003_posts
+2026-09-02T10:29:42.025-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FK7764bafqgpryyv1pfrfxsmqb0 
+       foreign key (role_id) 
+       references sys007_role
+2026-09-02T10:29:42.025-03:00 DEBUG 17752 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FKn49uakpvmtdqe7tni5ihg663e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T10:29:42.028-03:00  INFO 17752 --- [blogBackend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02T10:29:42.053-03:00  WARN 17752 --- [blogBackend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-02T10:29:42.192-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-02T10:29:42.300-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2026-09-02T10:29:42.327-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02T10:29:42.327-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-02T10:29:42.328-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-09-02T10:29:42.329-03:00  INFO 17752 --- [blogBackend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-09-02T10:29:42.331-03:00  INFO 17752 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Started BlogBackendApplication in 2.1 seconds (process running for 2.308)
+2026-09-02T10:38:09.848-03:00  INFO 16012 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Starting BlogBackendApplication using Java 21.0.12.1 with PID 16012 (C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\blogBackend\target\classes started by labsfiap in C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\blogBackend)
+2026-09-02T10:38:09.851-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-09-02T10:38:09.852-03:00  INFO 16012 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T10:38:09.883-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\labsfiap\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.26.2.0.0\ojdbc11-23.26.2.0.0.jar referenced one or more files that do not exist: file:/C:/Users/labsfiap/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.26.2.0.0/oraclepki.jar
+2026-09-02T10:38:09.883-03:00  INFO 16012 --- [blogBackend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-02T10:38:09.884-03:00  INFO 16012 --- [blogBackend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-02T10:38:10.262-03:00  INFO 16012 --- [blogBackend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-02T10:38:10.301-03:00  INFO 16012 --- [blogBackend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 5 JPA repository interfaces.
+2026-09-02T10:38:10.629-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-09-02T10:38:10.649-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T10:38:10.649-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-09-02T10:38:10.676-03:00  INFO 16012 --- [blogBackend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 792 ms
+2026-09-02T10:38:10.799-03:00  INFO 16012 --- [blogBackend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-02T10:38:10.856-03:00  INFO 16012 --- [blogBackend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-02T10:38:11.126-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-02T10:38:11.146-03:00  INFO 16012 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Starting...
+2026-09-02T10:38:11.262-03:00  INFO 16012 --- [blogBackend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : SpringBootHikariCP - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-09-02T10:38:11.263-03:00  INFO 16012 --- [blogBackend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Start completed.
+2026-09-02T10:38:11.295-03:00  INFO 16012 --- [blogBackend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-02T10:38:11.833-03:00  INFO 16012 --- [blogBackend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-02T10:38:11.835-03:00  INFO 16012 --- [blogBackend] [restartedMain] org.hibernate.orm.jdbc.batch             : HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-09-02T10:38:11.843-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys001_user cascade 
+2026-09-02T10:38:11.844-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys002_profiles cascade 
+2026-09-02T10:38:11.844-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys003_posts cascade 
+2026-09-02T10:38:11.845-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys004_tag cascade 
+2026-09-02T10:38:11.845-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys006_posts_tags cascade 
+2026-09-02T10:38:11.845-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys007_role cascade 
+2026-09-02T10:38:11.845-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists sys008_system_users_roles cascade 
+2026-09-02T10:38:11.848-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys001_user (
+        id uuid not null,
+        password varchar(20) not null,
+        email varchar(60) not null,
+        name varchar(60) not null,
+        primary key (id)
+    )
+2026-09-02T10:38:11.852-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys002_profiles (
+        id uuid not null,
+        user_id uuid unique,
+        biography varchar(255),
+        picture varchar(255),
+        primary key (id)
+    )
+2026-09-02T10:38:11.854-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys003_posts (
+        id uuid not null,
+        user_id uuid,
+        title varchar(60) not null,
+        content varchar(255),
+        primary key (id)
+    )
+2026-09-02T10:38:11.855-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys004_tag (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T10:38:11.856-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys006_posts_tags (
+        post_id uuid not null,
+        tag_id uuid not null,
+        primary key (post_id, tag_id)
+    )
+2026-09-02T10:38:11.857-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys007_role (
+        name varchar(15) not null,
+        id uuid not null,
+        primary key (id)
+    )
+2026-09-02T10:38:11.858-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    create table sys008_system_users_roles (
+        role_id uuid not null,
+        user_id uuid not null,
+        primary key (role_id, user_id)
+    )
+2026-09-02T10:38:11.858-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys002_profiles 
+       add constraint FKk2etle2j4opydcp3bkjiu0ybi 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T10:38:11.865-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys003_posts 
+       add constraint FKfla4j75s2o1p8gb626fk1ox0e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T10:38:11.867-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FK3c89x3lab6nyv46as92cr1095 
+       foreign key (tag_id) 
+       references sys004_tag
+2026-09-02T10:38:11.868-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys006_posts_tags 
+       add constraint FKnugvv045a69eo0av7l6bf0wxb 
+       foreign key (post_id) 
+       references sys003_posts
+2026-09-02T10:38:11.869-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FK7764bafqgpryyv1pfrfxsmqb0 
+       foreign key (role_id) 
+       references sys007_role
+2026-09-02T10:38:11.870-03:00 DEBUG 16012 --- [blogBackend] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists sys008_system_users_roles 
+       add constraint FKn49uakpvmtdqe7tni5ihg663e 
+       foreign key (user_id) 
+       references sys001_user
+2026-09-02T10:38:11.872-03:00  INFO 16012 --- [blogBackend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02T10:38:11.906-03:00  WARN 16012 --- [blogBackend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-02T10:38:12.260-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-02T10:38:12.495-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2026-09-02T10:38:12.550-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02T10:38:12.550-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-02T10:38:12.552-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-09-02T10:38:12.553-03:00  INFO 16012 --- [blogBackend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-09-02T10:38:12.557-03:00  INFO 16012 --- [blogBackend] [restartedMain] b.c.f._.j.b.BlogBackendApplication       : Started BlogBackendApplication in 3.002 seconds (process running for 3.381)

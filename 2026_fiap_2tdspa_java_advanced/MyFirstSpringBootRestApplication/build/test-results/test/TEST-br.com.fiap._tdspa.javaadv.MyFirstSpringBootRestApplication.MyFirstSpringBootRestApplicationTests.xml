@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.fiap._tdspa.javaadv.MyFirstSpringBootRestApplication.MyFirstSpringBootRestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-02T13:22:21.242Z" hostname="PA709MICRO04" time="2.735">
+  <properties/>
+  <testcase name="contextLoads()" classname="br.com.fiap._tdspa.javaadv.MyFirstSpringBootRestApplication.MyFirstSpringBootRestApplicationTests" time="0.25"/>
+  <system-out><![CDATA[10:22:21.353 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [br.com.fiap._tdspa.javaadv.MyFirstSpringBootRestApplication.MyFirstSpringBootRestApplicationTests]: MyFirstSpringBootRestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:22:21.411 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration br.com.fiap._tdspa.javaadv.MyFirstSpringBootRestApplication.MyFirstSpringBootRestApplication for test class br.com.fiap._tdspa.javaadv.MyFirstSpringBootRestApplication.MyFirstSpringBootRestApplicationTests
+10:22:21.462 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [br.com.fiap._tdspa.javaadv.MyFirstSpringBootRestApplication.MyFirstSpringBootRestApplicationTests]: MyFirstSpringBootRestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:22:21.463 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration br.com.fiap._tdspa.javaadv.MyFirstSpringBootRestApplication.MyFirstSpringBootRestApplication for test class br.com.fiap._tdspa.javaadv.MyFirstSpringBootRestApplication.MyFirstSpringBootRestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-09-02 10:22:21 INFO  b.c.f._.j.M.MyFirstSpringBootRestApplicationTests - Starting MyFirstSpringBootRestApplicationTests using Java 21.0.12.1 with PID 13400 (started by labsfiap in C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\MyFirstSpringBootRestApplication)
+2026-09-02 10:22:21 INFO  b.c.f._.j.M.MyFirstSpringBootRestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-09-02 10:22:22 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-02 10:22:22 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2026-09-02 10:22:22 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-02 10:22:22 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-02 10:22:22 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-02 10:22:22 INFO  com.zaxxer.hikari.HikariDataSource - SpringBootHikariCP - Starting...
+2026-09-02 10:22:22 INFO  com.zaxxer.hikari.pool.HikariPool - SpringBootHikariCP - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-09-02 10:22:22 INFO  com.zaxxer.hikari.HikariDataSource - SpringBootHikariCP - Start completed.
+2026-09-02 10:22:22 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-02 10:22:23 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-02 10:22:23 INFO  org.hibernate.orm.jdbc.batch - HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-09-02 10:22:23 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02 10:22:23 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-02 10:22:23 INFO  o.s.b.h.a.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2026-09-02 10:22:23 INFO  b.c.f._.j.M.MyFirstSpringBootRestApplicationTests - Started MyFirstSpringBootRestApplicationTests in 2.218 seconds (process running for 3.127)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\labsfiap\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.18.10\9426d28828bdcdf42666bb7a68c468279ea78f59\byte-buddy-agent-1.18.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

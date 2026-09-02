@@ -1,0 +1,31 @@
+2026-09-02T10:22:21.718-03:00  INFO 13400 --- [blogBackend] [Test worker] .M.MyFirstSpringBootRestApplicationTests : Starting MyFirstSpringBootRestApplicationTests using Java 21.0.12.1 with PID 13400 (started by labsfiap in C:\Users\labsfiap\IdeaProjects\JavaAdvanced2026\2026_fiap_2tdspa_java_advanced\MyFirstSpringBootRestApplication)
+2026-09-02T10:22:21.720-03:00  INFO 13400 --- [blogBackend] [Test worker] .M.MyFirstSpringBootRestApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T10:22:22.101-03:00  INFO 13400 --- [blogBackend] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-02T10:22:22.119-03:00  INFO 13400 --- [blogBackend] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2026-09-02T10:22:22.376-03:00  INFO 13400 --- [blogBackend] [Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-02T10:22:22.414-03:00  INFO 13400 --- [blogBackend] [Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-02T10:22:22.699-03:00  INFO 13400 --- [blogBackend] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-02T10:22:22.718-03:00  INFO 13400 --- [blogBackend] [Test worker] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Starting...
+2026-09-02T10:22:22.886-03:00  INFO 13400 --- [blogBackend] [Test worker] com.zaxxer.hikari.pool.HikariPool        : SpringBootHikariCP - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-09-02T10:22:22.887-03:00  INFO 13400 --- [blogBackend] [Test worker] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Start completed.
+2026-09-02T10:22:22.921-03:00  INFO 13400 --- [blogBackend] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-02T10:22:23.153-03:00  INFO 13400 --- [blogBackend] [Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-02T10:22:23.157-03:00  INFO 13400 --- [blogBackend] [Test worker] org.hibernate.orm.jdbc.batch             : HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-09-02T10:22:23.169-03:00  INFO 13400 --- [blogBackend] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02T10:22:23.243-03:00  INFO 13400 --- [blogBackend] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-02T10:22:23.608-03:00  INFO 13400 --- [blogBackend] [Test worker] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2026-09-02T10:22:23.715-03:00  INFO 13400 --- [blogBackend] [Test worker] .M.MyFirstSpringBootRestApplicationTests : Started MyFirstSpringBootRestApplicationTests in 2.218 seconds (process running for 3.127)
+2026-09-02T10:22:23.990-03:00  INFO 13400 --- [blogBackend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-02T10:22:23.996-03:00  INFO 13400 --- [blogBackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Shutdown initiated...
+2026-09-02T10:22:24.000-03:00  INFO 13400 --- [blogBackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootHikariCP - Shutdown completed.
